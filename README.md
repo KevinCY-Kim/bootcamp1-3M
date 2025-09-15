@@ -5,23 +5,45 @@
 - [1.Python and Deeplearning Basic/](./1.Python%20and%20Deeplearning%20Basic/): Python 기초, 데이터 처리, 크롤링, 딥러닝 기초(PyTorch)
 - [2. CV and Object detection/](./2.%20CV%20and%20Object%20detection/): 분류/전이학습, 평가 지표, 전처리/증강, 생성모델, 객체탐지(YOLO), 논문 구현
 
-## 설치 및 실행 환경
+## 📦 프로젝트 환경 설치 가이드 (분리된 requirements)
 
-1) 의존성 설치
+본 프로젝트는 폴더별 작업 목적에 따라 requirements를 분리했습니다. 필요한 환경만 선택적으로 설치하면 됩니다.
 
+### 1) 기본(Core) 환경
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_core.txt
 ```
 
-2) CUDA 사용 시(PyTorch GPU)
-- OS/드라이버에 맞는 CUDA 버전의 PyTorch를 공식 가이드로 설치하세요:
-  - PyTorch 설치 가이드: https://pytorch.org/get-started/locally/
-- 예) CUDA 11.8:
+### 2) Torch (기본 CPU)
 ```bash
-pip install --index-url https://download.pytorch.org/whl/cu118 torch torchvision torchaudio
+pip install -r requirements_torch.txt
+```
+GPU 환경(CUDA)에서는 공식 PyTorch 페이지에서 wheel 선택 후 설치하세요:
+👉 https://pytorch.org/get-started/locally/
+
+### 3) Computer Vision / Detection
+```bash
+pip install -r requirements_cv.txt
 ```
 
-3) Jupyter 환경
+### 4) 데이터 수집 / 크롤링
+```bash
+pip install -r requirements_data.txt
+```
+
+### 5) Notebook & 실험 환경
+```bash
+pip install -r requirements_notebook.txt
+```
+
+✅ 권장 설치 순서
+```bash
+pip install -r requirements_core.txt
+pip install -r requirements_torch.txt
+# 이후 필요한 작업 폴더에 맞게 cv, data, notebook을 추가 설치
+```
+
+## Jupyter 환경 실행
 ```bash
 jupyter lab
 ```
