@@ -1,0 +1,40 @@
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Torch stack (CPU by default; install CUDA-specific wheels separately if needed)
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# CV / Imaging
+opencv-python>=4.8.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.2
+scikit-image>=0.21.0
+
+# ML Utils
+scikit-learn>=1.3.0
+albumentations>=1.3.1
+imgaug>=0.4.0
+
+# Progress / Notebook
+tqdm>=4.66.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+
+# Web / Crawling (used in Data Correction)
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+selenium>=4.12.0
+
+# YOLO / Detection
+ultralytics>=8.0.200
+# For YOLOv5 notebooks, repo requirements are installed inside the notebook
+
+# Misc
+pyyaml>=6.0.1
+rich>=13.5.0
