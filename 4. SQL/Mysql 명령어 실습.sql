@@ -106,3 +106,5 @@ where player_name like "%민%";
 -- 포지션의　유니크값　출력해보기
 select distinct position
 from player;
+
+
