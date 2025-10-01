@@ -70,6 +70,16 @@ jupyter lab
 - 평가 지표: [03_model_evaluation_metrics.ipynb](./2.%20CV%20and%20Object%20detection/03_model_evaluation_metrics.ipynb)
 - 객체탐지 YOLOv8: [12_ObjectDetection_with_YOLOv8s.ipynb](./2.%20CV%20and%20Object%20detection/12_ObjectDetection_with_YOLOv8s.ipynb)
 
+### 3. SQL
+- 개요: [README.md](./4.%20SQL/README.md)
+- MySQL 학습 및 실습용 스크립트 모음 (기본 명령어, 집계, 조인 등)
+
+추천 시작 경로
+- 기본 개념: [sql이해.sql](./4.%20SQL/sql%EC%9D%B4%ED%95%B4.sql)
+- 기본 명령어: [Mysql 명령어 실습.sql](./4.%20SQL/Mysql%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%8B%A4%EC%8A%B5.sql)
+- 내장 집계 함수: [Mysql 내장집계함수.sql](./4.%20SQL/Mysql%20%EB%82%B4%EC%9E%A5%EC%A7%91%EA%B3%84%ED%95%A8%EC%88%98.sql)
+- 조인 실습: [Mysql 조인함수.sql](./4.%20SQL/Mysql%20%EC%A1%B0%EC%9D%B8%ED%95%A8%EC%88%98.sql)
+
 ## 주의 및 팁
 - 일부 노트북(예: YOLOv5)은 노트북 내부에서 별도 패키지를 설치합니다.
 - 크롤링 노트북은 웹 페이지 구조 변경에 따라 수정이 필요할 수 있습니다.
