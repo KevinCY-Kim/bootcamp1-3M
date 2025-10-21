@@ -1,9 +1,11 @@
 # Bootcamp Repository 안내
 
-이 저장소는 두 축으로 구성됩니다:
+이 저장소는 네 개의 주요 영역으로 구성됩니다:
 
 - [1.Python and Deeplearning Basic/](./1.Python%20and%20Deeplearning%20Basic/): Python 기초, 데이터 처리, 크롤링, 딥러닝 기초(PyTorch)
 - [2. CV and Object detection/](./2.%20CV%20and%20Object%20detection/): 분류/전이학습, 평가 지표, 전처리/증강, 생성모델, 객체탐지(YOLO), 논문 구현
+- [3. NLP/](./3.%20NLP/): 텍스트 전처리, RNN/LSTM, 어텐션/Transformer, 오디오 처리, 대규모 언어모델(LLM)
+- [4. SQL/](./4.%20SQL/): MySQL 기초, 쿼리 작성, 집계함수, 조인 연습
 
 ## 📦 프로젝트 환경 설치 가이드 (분리된 requirements)
 
@@ -70,7 +72,21 @@ jupyter lab
 - 평가 지표: [03_model_evaluation_metrics.ipynb](./2.%20CV%20and%20Object%20detection/03_model_evaluation_metrics.ipynb)
 - 객체탐지 YOLOv8: [12_ObjectDetection_with_YOLOv8s.ipynb](./2.%20CV%20and%20Object%20detection/12_ObjectDetection_with_YOLOv8s.ipynb)
 
-### 3. SQL
+### 3. NLP
+- 개요: [README.md](./3.%20NLP/README.md)
+- 텍스트 전처리 기초: [1_텍스트_전처리/](./3.%20NLP/1_텍스트_전처리/)
+- RNN/LSTM 기초: [2_RNN/](./3.%20NLP/2_RNN/)
+- Transformer/어텐션: [3_Attention_Transformer/](./3.%20NLP/3_Attention_Transformer/)
+- 오디오 처리: [4_오디오_전처리/](./3.%20NLP/4_오디오_전처리/)
+- 대규모 언어모델: [5_LLM/](./3.%20NLP/5_LLM/)
+
+추천 시작 경로
+- 텍스트 전처리: [1_텍스트_전처리/02_Text_Preprocessing.ipynb](./3.%20NLP/1_텍스트_전처리/02_Text_Preprocessing.ipynb)
+- RNN 기초: [2_RNN/01_RNN_basic.ipynb](./3.%20NLP/2_RNN/01_RNN_basic.ipynb)
+- 어텐션 메커니즘: [3_Attention_Transformer/01.Seq2Seq with attention.ipynb](./3.%20NLP/3_Attention_Transformer/01.Seq2Seq%20with%20attention.ipynb)
+- 발화 상황 분류 실습: [2_RNN/[실습] 발화 상황 분류.ipynb](./3.%20NLP/2_RNN/%5B실습%5D%20발화%20상황%20분류.ipynb)
+
+### 4. SQL
 - 개요: [README.md](./4.%20SQL/README.md)
 - MySQL 학습 및 실습용 스크립트 모음 (기본 명령어, 집계, 조인 등)
 
